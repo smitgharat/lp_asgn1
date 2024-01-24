@@ -1,0 +1,7 @@
+a = allocate 500  
+b = a
+c = allocate 100
+d = allocate 300
+free c
+e = allocate 220
+free a
